@@ -4,4 +4,3 @@
 
 - name: Copy nginx configuration
   template: src=nginx_app_config dest=/etc/nginx/sites-available/{{ deploy_app_name }} owner=root group=root
-

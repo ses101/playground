@@ -1,0 +1,8 @@
+---
+- name: Add Rails API deploy user
+  user:
+    name: rails_api_user
+    shell: /bin/bash
+    password: "{{ lookup('password', '/dev/null length=18') | password_hash('sha512') }}"
+    update_password: on_create
+    append: yes

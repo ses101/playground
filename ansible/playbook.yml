@@ -11,7 +11,8 @@
       raw: apt-get install -qq python2.7 aptitude
     - name: set python 2.7 as default
       raw: update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
-    - name: install vim
-      raw: apt-get install -qq vim
   roles:
+    - common
     - nginx
+    - rails_api_user
+    - ruby
