@@ -17,3 +17,4 @@
     - libcurl4
     - curl
     - libcurl4-openssl-dev
+    - rubygems
