@@ -18,3 +18,10 @@
     - curl
     - libcurl4-openssl-dev
     - rubygems
+    - ruby-dev
+    - patch
+    - liblzma-dev
+    - openssl
+    - ruby-openssl
+    - libssl-dev
+    - libxml2
