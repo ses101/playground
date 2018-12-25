@@ -1,2 +1,5 @@
 ---
 deploy_app_name: ses101
+ruby_version: 2.5.3
+ruby_install_version: 0.7.0
+rails_api_user: rails_api_user
